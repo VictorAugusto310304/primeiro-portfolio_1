@@ -489,7 +489,7 @@ footer{
 
 /*RESPONSIVIDADE LAYOUT*/
 
-@media(max-width: 990px){
+@media only screen and (max-width: 990px){
     .section_tittle h1{
         font-size: 4.4rem;
     }
@@ -505,10 +505,11 @@ footer{
 
     header {
         justify-content: space-between;
-        padding: 30px 70px;
+        padding: 30px 20px;
     }
     header h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
+        left: 30px;
     }
     header .navigation_shortcuts{
         display: none;
@@ -553,7 +554,7 @@ footer{
     .myPresentation_content a{
         font-size: 2rem;
         border-radius: 20px;
-        border: 8px solid white;
+        border: 4px solid white;
     }
     .typing_effect{
         font-size: 2rem;
