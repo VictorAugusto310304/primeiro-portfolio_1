@@ -8,6 +8,7 @@
 }
 
 body{
+    width: 100vw;
     background-color: #000;
     max-width: 1400px;
     margin: 0 auto;
