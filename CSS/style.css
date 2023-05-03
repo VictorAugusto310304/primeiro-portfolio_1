@@ -569,10 +569,6 @@ footer{
         margin-top: 30px;
         display: grid;
     }
-    
-    .courses_content ul{
-        height: 400px;
-    }
 
     .experience, .experience_content{
         justify-self: center;
