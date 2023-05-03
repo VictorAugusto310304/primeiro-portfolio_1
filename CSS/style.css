@@ -569,6 +569,10 @@ footer{
         margin-top: 30px;
         display: grid;
     }
+    
+    .courses_content ul li i{
+        margin-top: 30px;
+    }
 
     .experience, .experience_content{
         justify-self: center;
@@ -580,7 +584,6 @@ footer{
     }
     .experience_content ul{
         font-size: 2rem;
-        margin-top: 100px;
     }
     .experience_tittle{
         font-size: 2.5rem;
