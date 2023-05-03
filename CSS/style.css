@@ -260,7 +260,7 @@ main .about{
     gap: 30px;
     align-content: center;
     text-align: center;
-    height: 400px;
+    height: 300px;
     max-width: 300px;
     background-color: #222;
 }
@@ -268,6 +268,7 @@ main .about{
 .courses_content ul li i{
     font-size: 2.7rem;
     color: #dc3545;
+    top: 20px;
 }
 
 .courses_content ul li h3 {
