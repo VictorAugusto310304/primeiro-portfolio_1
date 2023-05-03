@@ -279,7 +279,7 @@ main .about{
 
 .courses_content ul li p {
     color: #707070;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'Poppins';
 }
 
@@ -572,8 +572,7 @@ footer{
     
     .courses_content ul{
         width: 400px;
-        height: 600px;
-        max-height: 600px;
+        height: 400px;
     }
 
     .experience, .experience_content{
