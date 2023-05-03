@@ -488,9 +488,9 @@ footer{
 
 /*RESPONSIVIDADE LAYOUT*/
 
-@media only screen and (max-width: 990px){
+@media (max-width: 990px){
     body{
-        width: 130vw;
+        width: 120vw;
     }
     .section_tittle h1{
         font-size: 4.4rem;
