@@ -260,7 +260,7 @@ main .about{
     gap: 30px;
     align-content: center;
     text-align: center;
-    height: 300px;
+    height: 400px;
     max-width: 300px;
     background-color: #222;
 }
@@ -570,11 +570,6 @@ footer{
         display: grid;
     }
     
-    .courses_content ul li{
-        padding 240px;
-        gap: 9940px;
-    }
-
     .experience, .experience_content{
         justify-self: center;
         grid-column: 1/-1;
