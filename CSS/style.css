@@ -541,7 +541,7 @@ footer{
     }
 
     .myPresentation{
-        background-image: url("/Images/Imagem_Victor_Augusto.jpg");
+        background-image: url("https://mathuskara.github.io/primeiro-portfolio_1/Imagem_Victor_Augusto.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
