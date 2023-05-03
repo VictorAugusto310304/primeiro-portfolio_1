@@ -570,8 +570,9 @@ footer{
         display: grid;
     }
     
-    .courses_content ul li i{
-        margin-top: 30px;
+    .courses_content ul{
+        width: 400px;
+        height: 400px;
     }
 
     .experience, .experience_content{
