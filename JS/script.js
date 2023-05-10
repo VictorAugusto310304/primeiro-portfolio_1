@@ -8,7 +8,7 @@ function typingLyric_effect(){
             setTimeout(()=>{
                 element.innerHTML += lyric;
             }, 75 * i)
-        })
+        });
     }
 
     const tittle = document.querySelector('.typing_effect');
@@ -16,13 +16,13 @@ function typingLyric_effect(){
 }
 
 function menuIconMobile(){
-    const activateMenu = document.querySelector('.fa-bars')
-    const navigationMenu = document.querySelector('header .navigation_shortcuts')
+    const activateMenu = document.querySelector('.fa-bars');
+    const navigationMenu = document.querySelector('header .navigation_shortcuts');
 
     activateMenu.addEventListener("click",()=>{ 
-        activateMenu.classList.toggle('fa-x')
-        navigationMenu.classList.toggle('activated')
-    })
+        activateMenu.classList.toggle('fa-x');
+        navigationMenu.classList.toggle('activated');
+    });
 }
 
 function experience_block(){
@@ -40,8 +40,8 @@ function experience_block(){
     const divExperience = document.querySelectorAll('.experience_content div');
     const liExperience = document.querySelectorAll('.experience_content ul li');
 
-    divExperience[0].classList.add('activated')
-    liExperience[0].classList.add('activated')
+    divExperience[0].classList.add('activated');
+    liExperience[0].classList.add('activated');
 
     liExperience.forEach((event, index)=>{
         event.addEventListener('click', ()=>{
