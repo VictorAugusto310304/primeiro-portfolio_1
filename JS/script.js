@@ -25,7 +25,7 @@ function menuIconMobile(){
     })
 }
 
-function Experience(){
+function experience_block(){
     function slideShow(index){
         divExperience.forEach((div)=>{
             div.classList.remove('activated');
@@ -46,11 +46,11 @@ function Experience(){
     liExperience.forEach((event, index)=>{
         event.addEventListener('click', ()=>{
             slideShow(index);
-        })
-    })
+        });
+    });
 }
 
 //CHAMADA DAS FUNÇÕES
+experience_block();
 typingLyric_effect();
-Experience();
 menuIconMobile();
